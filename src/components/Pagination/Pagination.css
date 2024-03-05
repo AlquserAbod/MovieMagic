@@ -1,0 +1,16 @@
+.pagination-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination-container .pagination {
+    flex-wrap: wrap;
+}
+.pagination-container .pagination .page-item .page-link {
+    color: var(--secondary-darkest-color) !important;
+}
+.pagination-container .pagination .page-item.active .page-link {
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}

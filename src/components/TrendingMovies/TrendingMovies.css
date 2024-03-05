@@ -1,0 +1,14 @@
+.trending-list {
+    padding: 30px 0;
+
+}
+.trending-list .main-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.trending-list h1 {
+    color: var(--primary-color);
+    margin: 0;
+}

@@ -1,0 +1,34 @@
+.movie-card {
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    border: 0;
+    display: block;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.movie-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.movie-card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    transition: all .3s ease;
+}
+
+.movie-card:hover .overlay {
+    border: 3px solid var(--secondary-color);
+}
+
+.movie-card:hover {
+    transform: scale(1.1);
+}

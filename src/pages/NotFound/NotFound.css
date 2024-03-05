@@ -1,0 +1,21 @@
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+.error-icon{
+  font-size: 100px;
+}
+  
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.5rem;
+  }

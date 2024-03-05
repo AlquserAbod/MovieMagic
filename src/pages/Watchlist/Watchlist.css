@@ -1,0 +1,22 @@
+.watch-list {
+    padding: 30px 0;
+
+}
+
+
+.watch-list h1 {
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.watch-list .no-movies a {
+    text-decoration: underline;
+    transition: .3s ease all;
+    color: var(--secondary-color) !important;
+}
+
+.watch-list .no-movies a:hover {
+    cursor: pointer;
+    color: var(--secondary-darkest-color);
+}
+

@@ -1,0 +1,13 @@
+.footer {
+    margin-top: 50px;
+}
+.footer .copryte { 
+    font-size: 0.7rem;
+
+    text-align: center;
+}
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+}
