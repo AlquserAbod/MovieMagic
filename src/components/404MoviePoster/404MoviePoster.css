@@ -14,9 +14,4 @@
     height: 113px;
     font-size: xx-large;
 }
-@media (min-width:992px) {
-    .filter-poster {
-        min-height: 352px;
-        min-width: 235px;
-    }
-}
+
