@@ -20,7 +20,8 @@ function Watched() {
         {MoviesContext.watched.length > 0 ? (
           <MovieGrid>
             {MoviesContext.watched.map((movie) => (
-              <MovieCard key={movie.imdbID} movie={movie} type="watched" />
+              
+              <MovieCard key={movie.id} movie={movie} type="watched" />
             ))}
           </MovieGrid>
         ) : (

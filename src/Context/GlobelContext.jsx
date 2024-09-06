@@ -17,7 +17,6 @@ const ContextProvider = ({children}) => {
     const [state,dispatch] = useReducer(reducer,initailState);
     
     useEffect(() => {
-        console.log(state);
 
         localStorage.setItem(
             process.env.REACT_APP_WATCHED_STORAGE_KEY,

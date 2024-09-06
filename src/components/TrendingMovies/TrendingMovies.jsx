@@ -13,7 +13,6 @@ function TrendingMovies({type, title}) {
     axios.get(url)
       .then((res) => {
           if(res.data) {
-            console.log(type,res.data);
               setMovies(res.data)
           }
       })

@@ -11,15 +11,15 @@ function Header() {
           </div>
 
           <ul className="nav-links">
-            <li class="dropdown-center nav-link">
-                <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="dropdown-center nav-link">
+                <a className="dropdown-toggle" href="/#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Movie
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/movies/popular">Popular</a></li>
-                  <li><a class="dropdown-item" href="/movies/top_rated">Top rated</a></li>
-                  <li><a class="dropdown-item" href="/movies/now_playing">Now playing</a></li>
-                  <li><a class="dropdown-item" href="/movies/upcoming">Upcoming</a></li>
+                <ul className="dropdown-menu">
+                  <li><a className="dropdown-item" href="/movies/popular">Popular</a></li>
+                  <li><a className="dropdown-item" href="/movies/top_rated">Top rated</a></li>
+                  <li><a className="dropdown-item" href="/movies/now_playing">Now playing</a></li>
+                  <li><a className="dropdown-item" href="/movies/upcoming">Upcoming</a></li>
                 </ul>
             </li>
 
