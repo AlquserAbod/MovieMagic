@@ -1,13 +1,11 @@
 .footer {
     margin-top: 50px;
-}
-.footer .copryte { 
-    font-size: 0.7rem;
-
-    text-align: center;
-}
-.footer .container {
     display: flex;
-    justify-content: center;
-    align-items:  center;
+    flex-direction: column;
+
+    gap: 0;
+}
+.footer .copyright { 
+    font-size: 0.7rem;
+    text-align: center;
 }
